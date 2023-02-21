@@ -9,7 +9,7 @@ st.write("""
     and some more text
     """)
 
-df = pd.read_csv('StreamlitFun/data.csv')
+df = pd.read_csv('data.csv')
 df
 
 options = st.selection()
